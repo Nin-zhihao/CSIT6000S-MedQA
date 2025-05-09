@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""T5_MedQA - Fine-tune and inference script for MedQA"""
-# python MedQA.py --fine_tune
-# python MedQA.py --question "What is asthma?"
+"""Fine-tune and inference script for MedQA"""
+# python MedQA_fine_tune.py --fine_tune
+# python MedQA_fine_tune.py --question "What is asthma?"
 import argparse
 import torch
 from datasets import load_dataset

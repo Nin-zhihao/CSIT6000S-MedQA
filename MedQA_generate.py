@@ -2,15 +2,12 @@
 # -*- coding: utf-8 -*-
 
 """
-generate_rag_responses.py
-
-Read a CSV file, extract the 'Question' column, call the MedQA model to generate answers,
-write the results into a new 'RAG Response' column, and finally save the CSV.
+Read a CSV file, call the MedQA model to generate answers,and write the results into the CSV.
 """
 
 import argparse
 import pandas as pd
-from MedQA import generate_answer  
+from MedQA_fine_tune import generate_answer  
 
 def main():
     parser = argparse.ArgumentParser(description="Generate RAG responses for the 'Question' column in a test CSV")
