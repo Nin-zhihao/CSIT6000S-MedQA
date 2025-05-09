@@ -1,3 +1,5 @@
+# This code is part of a custom Trainer class using the Unlikelihood loss
+
 from transformers import Trainer
 import torch
 import torch.nn as nn
